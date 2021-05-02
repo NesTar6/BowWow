@@ -1,0 +1,9 @@
+.arrow {
+    color: #3B2826;
+    transition: 'all ease-in-out 356ms'
+}
+
+.arrow:hover {
+    color: #FF8000;
+    transition: 'all ease-in-out 356ms'
+}

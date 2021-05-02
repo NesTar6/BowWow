@@ -1,0 +1,87 @@
+.signInWrapper{
+    /* border: 3px dashed rgb(255, 0, 0); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.leftColumn{
+    /* border: 3px solid black; */
+    height: 90vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* why does component expand outside of wrapper when screen size is minimized*/
+.signInCard {
+    /* border: 3px solid rgb(201, 0, 0); */
+    background-color: #3B2826;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signInLogo {
+    width: auto;
+    font-size: 50px;
+}
+.dogIcon {
+    width: 100px;
+    height: 100px;
+}
+  
+.dogIcon {
+    animation-name: wiggle;
+    animation-delay: 5000ms;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(20deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(-20deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(20deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(-20deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+.signInButtonGroup{
+    margin: 5px;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SIButtons {
+    width:90%;
+    height:20%;
+    border-radius: 9999px;
+}
+
+
+  .rightColumn{   
+    margin-top: 5px;
+    width: 50vw;
+    height: 90vh;
+    background-image: url("https://i.imgur.com/98bCvr0.png");
+    background-position-y: 100px;
+    background-position-x: -100px;
+    background-repeat: no-repeat;
+    background-size:auto;
+  } 

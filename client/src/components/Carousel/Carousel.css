@@ -1,0 +1,31 @@
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+}
+
+.card__content {
+    position: absolute;
+    padding-top: 60px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.dog_display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog_display h3 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    margin: 5% 0;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    font-family: 'Work Sans', sans-serif;
+}
